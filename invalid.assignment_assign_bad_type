@@ -28,9 +28,9 @@ function Main():integer{
 	e = false;
 	f = d;
 	
-	f = d && e;
-	e = a <= 4 && b >= c || a != b && c == a || b < a && c > 3 || !d || !(e && f);
-	d = boolFunc();
+	a = d && e;
+	b = a <= 4 && b >= c || a != b && c == a || b < a && d > 3 || !a || !(b && c);
+	c = boolFunc();
 	
 	(% intarray assignment %)
 	g[0] = 0xAB923;
