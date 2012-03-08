@@ -35,6 +35,7 @@ if __name__ == "__main__":
         incorrect.append("Got no error for the invalid file: " + fl)
       elif flst[1].isdigit():        
         ln = line.strip().split()
+<<<<<<< HEAD
         nr = -1;
         for s in ln:
           if s[-1] == ',':
@@ -43,6 +44,10 @@ if __name__ == "__main__":
             nr = s
         if nr > -1:
           if nr == flst[1]:
+=======
+        if ln[-1].isdigit():
+          if ln[-1] == flst[1]:
+>>>>>>> remotes/mine/master
             print '.',
             correct += 1
           else:
