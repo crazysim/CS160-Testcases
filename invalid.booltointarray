@@ -1,0 +1,7 @@
+function Main():integer{
+    var a: boolean;
+    var b: intarray[2];
+    a = true;
+    b[0] = a;
+    return 0;
+    }
